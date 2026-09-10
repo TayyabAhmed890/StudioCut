@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/remove-bg.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    { "source": "/api/remove-bg", "destination": "/api/remove-bg.js" },
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ]
+}
