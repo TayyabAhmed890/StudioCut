@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Environment variables (MUST BE HIDDEN)
+.env
+.env.local
+.env.production
+
+# Vercel folder
+.vercel
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
